@@ -5,7 +5,7 @@ const setupInput = function(connection) {
   const handleUserInput = function(key) {
     if (key === '\u0003') {
       process.exit();
-    } if (key === "s") {
+    } if (key === "q") {
       connection.write('Say: Hello')
     } if ( key === "w") {
       connection.write("Move: up")
